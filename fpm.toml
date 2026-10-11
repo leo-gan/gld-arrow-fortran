@@ -1,0 +1,35 @@
+name = "gld-arrow-fortran"
+version = "0.1.0"
+license = "MIT"
+author = "Leonid Ganeline"
+maintainer = "leo.gan.57@gmail.com"
+copyright = "Copyright (c) 2026 Leonid Ganeline"
+description = "Export and import contiguous numeric Fortran arrays through the Arrow C Data Interface"
+
+[build]
+auto-executables = false
+auto-tests = false
+auto-examples = false
+
+[library]
+source-dir = "src"
+
+[fortran]
+implicit-typing = false
+implicit-external = false
+source-form = "free"
+
+[[executable]]
+name = "export_array"
+source-dir = "examples"
+main = "export_array.f90"
+
+[[executable]]
+name = "bench_round"
+source-dir = "benches"
+main = "bench_round.f90"
+
+[[test]]
+name = "roundtrip"
+source-dir = "tests"
+main = "test_roundtrip.f90"

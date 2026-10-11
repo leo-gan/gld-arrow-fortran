@@ -1,0 +1,6 @@
+type: uint8
+rank: 1
+shape: 8
+null_count: 0
+payload_hex: e6 04 22 40 5e 7c 9a b8
+validity_hex: 

@@ -1,0 +1,6 @@
+type: int64
+rank: 2
+shape: 2,2
+null_count: 0
+payload_hex: 00 38 e8 57 fb ff ff ff 00 1c f4 ab fd ff ff ff 00 00 00 00 00 00 00 00 00 e4 0b 54 02 00 00 00
+validity_hex: 

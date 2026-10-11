@@ -1,0 +1,6 @@
+type: bool
+rank: 2
+shape: 2,2
+null_count: 0
+payload_hex: 05
+validity_hex: 
