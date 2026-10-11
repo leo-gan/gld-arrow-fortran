@@ -414,7 +414,7 @@ contains
 
   subroutine check_endian_and_version()
     if (.not. arrow_host_little_endian()) call die("host is not little-endian")
-    if (ARROW_VERSION /= "0.1.0") call die("version")
+    if (ARROW_VERSION /= "0.2.0") call die("version")
   end subroutine check_endian_and_version
 
   subroutine check_layout_reject()

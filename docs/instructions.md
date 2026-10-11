@@ -119,7 +119,7 @@ a byte per element, not with the packed bitmap. Free it with `arrow_free` too.
 | `ARROW_ERR_LAYOUT` | 7 | The Fortran array is not contiguous |
 | `ARROW_ERR_NULL` | 8 | A required buffer pointer is null |
 
-`ARROW_VERSION` is the string from `fpm.toml`, currently `0.1.0`.
+`ARROW_VERSION` is the string from `fpm.toml`, currently `0.2.0`.
 
 ## Rank 2
 

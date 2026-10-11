@@ -5,7 +5,7 @@ The library fills and reads `ArrowSchema` and `ArrowArray` for contiguous
 little-endian numeric buffers. It does not link libarrow, and it does not
 read or write Arrow IPC files or streams.
 
-Version 0.1.0. MIT. Copyright (c) 2026 Leonid Ganeline.
+Version 0.2.0. MIT. Copyright (c) 2026 Leonid Ganeline.
 
 Documentation: [Why Arrow](https://leo-gan.github.io/gld-arrow-fortran/why-arrow/),
 [Instructions](https://leo-gan.github.io/gld-arrow-fortran/instructions/),
