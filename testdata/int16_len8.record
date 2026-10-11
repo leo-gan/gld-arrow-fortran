@@ -1,0 +1,6 @@
+type: int16
+rank: 1
+shape: 8
+null_count: 0
+payload_hex: 30 f8 18 fc 00 00 e8 03 d0 07 b8 0b a0 0f 88 13
+validity_hex: 

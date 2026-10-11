@@ -1,0 +1,6 @@
+type: int16
+rank: 1
+shape: 1
+null_count: 0
+payload_hex: 30 f8
+validity_hex: 

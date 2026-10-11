@@ -1,0 +1,6 @@
+type: int8
+rank: 1
+shape: 8
+null_count: 0
+payload_hex: f9 06 13 20 2d 3a 47 54
+validity_hex: 

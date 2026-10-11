@@ -1,0 +1,6 @@
+type: uint32
+rank: 2
+shape: 2,2
+null_count: 0
+payload_hex: 01 5e d0 b2 02 5e d0 b2 03 5e d0 b2 04 5e d0 b2
+validity_hex: 

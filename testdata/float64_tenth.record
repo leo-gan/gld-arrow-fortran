@@ -1,0 +1,6 @@
+type: float64
+rank: 1
+shape: 1
+null_count: 0
+payload_hex: 9a 99 99 99 99 99 b9 3f
+validity_hex:

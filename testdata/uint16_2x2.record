@@ -1,0 +1,6 @@
+type: uint16
+rank: 2
+shape: 2,2
+null_count: 0
+payload_hex: 41 9c 42 9c 43 9c 44 9c
+validity_hex: 

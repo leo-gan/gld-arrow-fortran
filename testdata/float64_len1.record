@@ -1,0 +1,6 @@
+type: float64
+rank: 1
+shape: 1
+null_count: 0
+payload_hex: 00 00 00 00 00 00 f8 3f
+validity_hex: 

@@ -1,0 +1,6 @@
+type: uint32
+rank: 1
+shape: 1
+null_count: 0
+payload_hex: 01 5e d0 b2
+validity_hex: 
