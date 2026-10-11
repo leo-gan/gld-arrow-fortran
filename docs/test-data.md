@@ -92,7 +92,7 @@ bitmap pointer must be null.
 These are not files under `testdata/`, but they run in `tests/test_roundtrip.f90`:
 
 - Schema size 72, array size 80, and every field offset against the C shim.
-- `arrow_host_little_endian()` is true and `ARROW_VERSION` is `0.1.0`.
+- `arrow_host_little_endian()` is true and `ARROW_VERSION` is `0.2.0`.
 - A strided rank-1 section and a strided rank-2 section return
   `ARROW_ERR_LAYOUT` without arming release.
 - Importing an exported `int32` as `int64` returns `ARROW_ERR_TYPE` and still
