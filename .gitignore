@@ -1,0 +1,26 @@
+# Local notes and scratch. Never commit.
+temp/
+
+# Secrets. Never commit.
+.env
+.env.*
+!.env.example
+
+# MkDocs
+site/
+
+# Fortran / fpm / make
+build/
+*.o
+*.mod
+*.smod
+*.a
+*.so
+*.exe
+*.dSYM/
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
