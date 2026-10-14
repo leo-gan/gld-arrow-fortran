@@ -26,15 +26,13 @@ scripts/run-tests.sh
 `fpm build` produces the static library. Programs link it by using the
 `gld_arrow` module.
 
-After the `0.2.0` tag exists, another fpm package can depend on it before the registry pull request is merged:
+Another fpm package depends on the `0.2.0` tag:
 
 ```toml
 [dependencies]
 gld-arrow-fortran.git = "https://github.com/leo-gan/gld-arrow-fortran"
 gld-arrow-fortran.tag = "0.2.0"
 ```
-
-Registry listing: [docs/publishing.md](docs/publishing.md).
 
 ## What it moves
 
