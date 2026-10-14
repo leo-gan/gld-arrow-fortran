@@ -1,5 +1,15 @@
 # Instructions
 
+## Install
+
+Another fpm package depends on this library by git tag. The module is `gld_arrow`.
+
+```toml
+[dependencies]
+gld-arrow-fortran.git = "https://github.com/leo-gan/gld-arrow-fortran"
+gld-arrow-fortran.tag = "0.2.0"
+```
+
 ## Requirements
 
 - gfortran 11 or newer. CI installs gfortran from apt on `ubuntu-latest`.
