@@ -1,5 +1,7 @@
 # gld-arrow-fortran
 
+[Serialization](https://leo-gan.github.io/serialization/) is the hub for the theory, the history, and the benchmarks.
+
 Fortran arrays over the [Arrow C Data Interface](https://arrow.apache.org/docs/format/CDataInterface.html).
 The library fills and reads `ArrowSchema` and `ArrowArray` for contiguous
 little-endian numeric buffers. It does not link libarrow, and it does not
